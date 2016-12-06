@@ -1,0 +1,488 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Optimize Database after Deleting Revisions v3.4\n"
+"POT-Creation-Date: 2015-06-07 18:23+0100\n"
+"PO-Revision-Date: 2015-06-07 18:23+0100\n"
+"Last-Translator: Rolf van Gelder <info@cagewebdev.com>\n"
+"Language-Team: Vadim Sokhin <http://pluginzone.ru>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: C:\\Users\\rvgelder.KC15435\\Documents\\My Dropbox"
+"\\cagewebdev\\wp-content\\plugins\\rvg-optimize-database\\\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: rvg-optimize-db.php:47 rvg-optimize-db.php:48 rvg-optimize-db.php:69
+#: rvg-optimize-db.php:70 rvg-optimize-db.php:90 rvg-optimize-db.php:91
+#: rvg-optimize-db.php:110 rvg-optimize-db.php:111
+msgid "Optimize Database"
+msgstr "Оптимизация БД"
+
+#: rvg-optimize-db.php:149
+msgid "Optimize DB (1 click)"
+msgstr "Оптимизация БД (1-клик)"
+
+#: rvg-optimize-db.php:178
+msgid "Once Weekly"
+msgstr "Раз в неделю"
+
+#: rvg-optimize-db.php:449
+msgid "Optimize Database after Deleting Revisions SETTINGS UPDATED"
+msgstr "НАСТРОЙКИ ОБНОВЛЕНЫ"
+
+#: rvg-optimize-db.php:451
+msgid ""
+"Click <a href=\"tools.php?page=rvg-optimize-db.php\" class=\"odb-bold"
+"\">HERE</a> to run the optimization"
+msgstr ""
+"Кликните <a href=\"tools.php?page=rvg-optimize-db.php\" class=\"odb-bold"
+"\">ЗДЕСЬ</a> для перехода к запуску оптимизации"
+
+#: rvg-optimize-db.php:517
+msgid "Optimize Database after Deleting Revisions"
+msgstr "Оптимизация базы данных после удаления ревизий"
+
+#: rvg-optimize-db.php:521
+msgid "is an one-click plugin to clean and optimize your WordPress database"
+msgstr "плагин для очистки и оптимизации базы данных WordPress в один клик"
+
+#: rvg-optimize-db.php:524
+msgid "Plugin version:"
+msgstr "Версия плагина:"
+
+#: rvg-optimize-db.php:528
+msgid "Author:"
+msgstr "Автор:"
+
+#: rvg-optimize-db.php:531 rvg-optimize-db.php:841 rvg-optimize-db.php:2007
+msgid "The Netherlands"
+msgstr "Нидерланды"
+
+#: rvg-optimize-db.php:534
+msgid "Plugin URL:"
+msgstr "URL плагина:"
+
+#: rvg-optimize-db.php:538
+msgid "Download URL:"
+msgstr "URL загрузки:"
+
+#: rvg-optimize-db.php:545
+msgid "Settings"
+msgstr "Настройки"
+
+#: rvg-optimize-db.php:553
+msgid ""
+"Maximum number of - most recent - revisions<br />to keep per post / page"
+msgstr ""
+"Максимальное число - последних - ревизий<br />оставленных для поста/ страницы"
+
+#: rvg-optimize-db.php:557
+msgid "('0' means: delete <u>ALL</u> revisions)"
+msgstr "('0' означает: удалить <u>ВСЕ</u> ревизии)"
+
+#: rvg-optimize-db.php:561 rvg-optimize-db.php:850
+msgid "Delete trashed items"
+msgstr "Удалить содержимое корзины"
+
+#: rvg-optimize-db.php:567 rvg-optimize-db.php:853
+msgid "Delete spammed items"
+msgstr "Удалить элементы спама"
+
+#: rvg-optimize-db.php:573 rvg-optimize-db.php:856
+msgid "Delete unused tags"
+msgstr "Удалить неиспользуемые теги"
+
+#: rvg-optimize-db.php:579 rvg-optimize-db.php:859
+msgid "Delete expired transients"
+msgstr "Удалить временные данные с истёкшим сроком"
+
+#: rvg-optimize-db.php:585 rvg-optimize-db.php:862
+msgid "Delete pingbacks and trackbacks"
+msgstr "Удалить Pingbacks и Trackbacks"
+
+#: rvg-optimize-db.php:591 rvg-optimize-db.php:865
+msgid "Keep a log"
+msgstr "Вести журнал событий"
+
+#: rvg-optimize-db.php:597 rvg-optimize-db.php:871
+msgid "Scheduler"
+msgstr "Планировщик"
+
+#: rvg-optimize-db.php:601 rvg-optimize-db.php:808
+msgid "NOT SCHEDULED"
+msgstr "НЕ ЗАПЛАНИРОВАНО"
+
+#: rvg-optimize-db.php:604
+msgid "run optimization HOURLY"
+msgstr "Запуск оптимизации ЕЖЕЧАСНО"
+
+#: rvg-optimize-db.php:607
+msgid "run optimization TWICE A DAY"
+msgstr "Запуск оптимизации ДВАЖДЫ В ДЕНЬ"
+
+#: rvg-optimize-db.php:610
+msgid "run optimization DAILY"
+msgstr "Запуск оптимизации ЕЖЕДНЕВНО"
+
+#: rvg-optimize-db.php:613
+msgid "run optimization WEEKLY"
+msgstr "Запуск оптимизации ЕЖЕНЕДЕЛЬНО"
+
+#: rvg-optimize-db.php:621
+msgid "Time"
+msgstr "Время"
+
+#: rvg-optimize-db.php:628
+msgid "hrs"
+msgstr "часов"
+
+#: rvg-optimize-db.php:641
+msgid "Show '1-click' link in Admin Bar"
+msgstr "Показать ссылку '1-клик' в верхней панели администратора"
+
+#: rvg-optimize-db.php:644 rvg-optimize-db.php:651
+msgid "(change will be visible after loading the next page)"
+msgstr "(Изменения будут видны после обновления страницы)"
+
+#: rvg-optimize-db.php:648
+msgid "Show an icon in the Admin Menu"
+msgstr "Показать иконку в меню администратора"
+
+#: rvg-optimize-db.php:656
+msgid ""
+"EXCLUDE DATABASE TABLES FROM OPTIMIZATION: <span class=\"odb-underline-red"
+"\">CHECKED</span> TABLES <span class=\"odb-underline-red\">WON'T</span> BE "
+"OPTIMIZED!</span>"
+msgstr ""
+"ИСКЛЮЧИТЬ ТАБЛИЦЫ БАЗЫ ДАННЫХ ИЗ ОПТИМИЗАЦИИ: <span class=\"odb-underline-red"
+"\">ОТМЕЧЕННЫЕ</span> ТАБЛИЦЫ <span class=\"odb-underline-red\">НЕ БУДУТ</"
+"span> ОПТИМИЗИРОВАНЫ!</span>"
+
+#: rvg-optimize-db.php:659
+msgid "check all tables"
+msgstr "Выбрать все таблицы"
+
+#: rvg-optimize-db.php:661
+msgid "uncheck all tables"
+msgstr "Снять выбор - для всех таблиц"
+
+#: rvg-optimize-db.php:663
+msgid "check all NON-WordPress tables"
+msgstr "Выбрать все НЕ-WordPress таблицы"
+
+#: rvg-optimize-db.php:687
+msgid "Save Settings"
+msgstr "Сохранить настройки"
+
+#: rvg-optimize-db.php:689
+msgid "Go To Optimizer"
+msgstr "Приступить к оптимизации"
+
+#: rvg-optimize-db.php:751 rvg-optimize-db.php:758 rvg-optimize-db.php:765
+#: rvg-optimize-db.php:772 rvg-optimize-db.php:780 rvg-optimize-db.php:787
+msgid "NO"
+msgstr "НЕТ"
+
+#: rvg-optimize-db.php:751 rvg-optimize-db.php:758 rvg-optimize-db.php:765
+#: rvg-optimize-db.php:772 rvg-optimize-db.php:780 rvg-optimize-db.php:787
+msgid "YES"
+msgstr "ДА"
+
+#: rvg-optimize-db.php:796
+msgid "ONCE HOURLY"
+msgstr "ЕЖЕЧАСНО"
+
+#: rvg-optimize-db.php:798
+msgid "TWICE DAILY"
+msgstr "ДВАЖДЫ В ДЕНЬ"
+
+#: rvg-optimize-db.php:800
+msgid "ONCE DAILY"
+msgstr "РАЗ В ДЕНЬ"
+
+#: rvg-optimize-db.php:802
+msgid "ONCE WEEKLY"
+msgstr "РАЗ В НЕДЕЛЮ"
+
+#: rvg-optimize-db.php:830
+msgid "Optimize your WordPress Database"
+msgstr "Оптимизация базы данных WordPress"
+
+#: rvg-optimize-db.php:839 rvg-optimize-db.php:2007
+msgid "A WordPress Plugin by"
+msgstr "WordPress плагин от"
+
+#: rvg-optimize-db.php:844
+msgid "Current settings"
+msgstr "Текущие настройки"
+
+#: rvg-optimize-db.php:847
+msgid "Maximum number of - most recent - revisions to keep per post / page"
+msgstr ""
+"Максимальное число - последних - оставленных ревизий для каждого поста/ "
+"страницы"
+
+#: rvg-optimize-db.php:868
+msgid "Number of excluded tables"
+msgstr "Число исключённых таблиц"
+
+#: rvg-optimize-db.php:879
+msgid "Next scheduled run"
+msgstr "Следующий запланированный запуск"
+
+#: rvg-optimize-db.php:888
+msgid "Total savings since the first run"
+msgstr "Сбережено с момента первого запуска"
+
+#: rvg-optimize-db.php:895
+msgid "Change Settings"
+msgstr "Изменить настройки"
+
+#: rvg-optimize-db.php:901 rvg-optimize-db.php:1311
+msgid "View Log File"
+msgstr "Просмотр журнала"
+
+#: rvg-optimize-db.php:903 rvg-optimize-db.php:1313
+msgid "Delete Log File"
+msgstr "Удалить журнал"
+
+#: rvg-optimize-db.php:912
+msgid "Start Optimization"
+msgstr "Начать оптимизацию"
+
+#: rvg-optimize-db.php:925
+msgid "Cleaning Database"
+msgstr "Очистка базы данных"
+
+#: rvg-optimize-db.php:948
+msgid "DELETED REVISIONS"
+msgstr "УДАЛЕНИЕ РЕВИЗИЙ"
+
+#: rvg-optimize-db.php:953 rvg-optimize-db.php:1004 rvg-optimize-db.php:1056
+msgid "prefix"
+msgstr "префикс"
+
+#: rvg-optimize-db.php:954
+msgid "post / page"
+msgstr "пост / страница"
+
+#: rvg-optimize-db.php:955
+msgid "revision date"
+msgstr "дата ревизии"
+
+#: rvg-optimize-db.php:956
+msgid "revisions deleted"
+msgstr "удалено ревизий"
+
+#: rvg-optimize-db.php:963
+msgid "total number of revisions deleted"
+msgstr "общее число удалённых ревизий"
+
+#: rvg-optimize-db.php:973
+msgid "No REVISIONS found to delete"
+msgstr "РЕВИЗИЙ для удаления не найдено"
+
+#: rvg-optimize-db.php:999
+msgid "DELETED TRASHED ITEMS"
+msgstr "УДАЛЕНИЕ СОДЕРЖИМОГО КОРЗИНЫ"
+
+#: rvg-optimize-db.php:1005
+msgid "type"
+msgstr "тип"
+
+#: rvg-optimize-db.php:1006
+msgid "IP address / title"
+msgstr "IP адрес / заголовок"
+
+#: rvg-optimize-db.php:1007
+msgid "date"
+msgstr "дата"
+
+#: rvg-optimize-db.php:1014
+msgid "total number of trashed items deleted"
+msgstr "общее число удалённых элементов из корзины"
+
+#: rvg-optimize-db.php:1024
+msgid "No TRASHED ITEMS found to delete"
+msgstr "В КОРЗИНЕ элементов для удаления не найдено"
+
+#: rvg-optimize-db.php:1051
+msgid "DELETEED SPAMMED ITEMS"
+msgstr "УДАЛЕНИЕ ЭЛЕМЕНТОВ СПАМА"
+
+#: rvg-optimize-db.php:1057
+msgid "comment author"
+msgstr "автор комментария"
+
+#: rvg-optimize-db.php:1058
+msgid "comment author email"
+msgstr "e-mail автора комментария"
+
+#: rvg-optimize-db.php:1059
+msgid "comment date"
+msgstr "дата комментария"
+
+#: rvg-optimize-db.php:1066
+msgid "total number of spammed items deleted"
+msgstr "общее число удалённых элементов спама"
+
+#: rvg-optimize-db.php:1076
+msgid "No SPAMMED ITEMS found to delete"
+msgstr "ЭЛЕМЕНТОВ СПАМА для удаления не найдено"
+
+#: rvg-optimize-db.php:1100
+msgid "NUMBER OF UNUSED TAGS DELETED"
+msgstr "ЧИСЛО УДАЛЁННЫХ НЕИСПОЛЬЗУЕМЫХ ТЕГОВ"
+
+#: rvg-optimize-db.php:1108
+msgid "No UNUSED TAGS found to delete"
+msgstr "НЕИСПОЛЬЗУЕМЫХ ТЕГОВ для удаления не найдено"
+
+#: rvg-optimize-db.php:1132
+msgid "NUMBER OF EXPIRED TRANSIENTS DELETED"
+msgstr "ЧИСЛО УДАЛЁННЫХ ВРЕМЕННЫХ ДАННЫХ"
+
+#: rvg-optimize-db.php:1140
+msgid "No EXPIRED TRANSIENTS found to delete"
+msgstr "ВРЕМЕННЫХ ДАННЫХ для удаления не найдено"
+
+#: rvg-optimize-db.php:1164
+msgid "NUMBER OF PINGBACKS AND TRACKBACKS DELETED"
+msgstr "ЧИСЛО УДАЛЁННЫХ PINGBACKS И TRACKBACKS"
+
+#: rvg-optimize-db.php:1172
+msgid "No PINGBACKS nor TRACKBACKS found to delete"
+msgstr "PINGBACKS и TRACKBACKS для удаления не найдено"
+
+#: rvg-optimize-db.php:1193
+msgid "NUMBER OF POSTMETA ORPHANS DELETED"
+msgstr "ЧИСЛО УДАЛЁННЫХ ОСИРОТЕВШИХ ПОЛЕЙ"
+
+#: rvg-optimize-db.php:1201
+msgid "No POSTMETA ORPHANS found to delete"
+msgstr "ОСИРОТЕВШИХ ПОЛЕЙ для удаления не найдено"
+
+#: rvg-optimize-db.php:1218
+msgid "Optimizing Database Tables"
+msgstr "Оптимизация таблиц базы данных"
+
+#: rvg-optimize-db.php:1226
+msgid "table name"
+msgstr "имя таблицы"
+
+#: rvg-optimize-db.php:1227
+msgid "optimization result"
+msgstr "результат оптимизации"
+
+#: rvg-optimize-db.php:1228
+msgid "engine"
+msgstr "система"
+
+#: rvg-optimize-db.php:1229
+msgid "table rows"
+msgstr "строк таблицы"
+
+#: rvg-optimize-db.php:1230
+msgid "table size"
+msgstr "размер таблицы"
+
+#: rvg-optimize-db.php:1256
+msgid "Savings"
+msgstr "Результат"
+
+#: rvg-optimize-db.php:1264
+msgid "size of the database"
+msgstr "размер базы данных"
+
+#: rvg-optimize-db.php:1267
+msgid "BEFORE optimization"
+msgstr "ДО оптимизации"
+
+#: rvg-optimize-db.php:1271
+msgid "AFTER optimization"
+msgstr "ПОСЛЕ оптимизации"
+
+#: rvg-optimize-db.php:1275
+msgid "SAVINGS THIS TIME"
+msgstr "СБЕРЕЖЕНО В ЭТОТ РАЗ"
+
+#: rvg-optimize-db.php:1279
+msgid "TOTAL SAVINGS SINCE THE FIRST RUN"
+msgstr "СБЕРЕЖЕНО С МОМЕНТА ПЕРВОГО ЗАПУСКА"
+
+#: rvg-optimize-db.php:1294
+msgid "DONE!"
+msgstr "ГОТОВО!"
+
+#: rvg-optimize-db.php:1300
+msgid "Optimization took"
+msgstr "Оптимизировано за"
+
+#: rvg-optimize-db.php:1302
+msgid "seconds"
+msgstr "секунд"
+
+#: rvg-optimize-db.php:1925
+msgid "InnoDB table: skipped..."
+msgstr "InnoDB таблицы: пропущено..."
+
+#: rvg-optimize-db.php:1931
+msgid "<span class=\"odb-optimized\">TABLE OPTIMIZED</span>"
+msgstr "<span class=\"odb-optimized\">ТАБЛИЦА ОПТИМИЗИРОВАНА</span>"
+
+#: rvg-optimize-db.php:1932
+msgid "Table is already up to date"
+msgstr "Оптимизация не требуется"
+
+#: rvg-optimize-db.php:2011
+msgid "time"
+msgstr "событие"
+
+#: rvg-optimize-db.php:2012
+msgid "deleted<br />revisions"
+msgstr "удалённые<br />ревизии"
+
+#: rvg-optimize-db.php:2013
+msgid "deleted<br />trash"
+msgstr "удалённый<br />мусор"
+
+#: rvg-optimize-db.php:2014
+msgid "deleted<br />spam"
+msgstr "удалённый<br />спам"
+
+#: rvg-optimize-db.php:2015
+msgid "deleted<br />tags"
+msgstr "удалённые<br />теги"
+
+#: rvg-optimize-db.php:2016
+msgid "deleted<br />transients"
+msgstr "удалённые<br />временные данные"
+
+#: rvg-optimize-db.php:2017
+msgid "deleted<br />pingbacks<br />trackbacks"
+msgstr "удалённые<br />pingbacks<br />trackbacks"
+
+#: rvg-optimize-db.php:2018
+msgid "deleted<br />orphans"
+msgstr "удалённые<br />осиротевшие поля"
+
+#: rvg-optimize-db.php:2019
+msgid "nr of optimized tables"
+msgstr "число оптимизированных таблиц"
+
+#: rvg-optimize-db.php:2020
+msgid "database size BEFORE"
+msgstr "размер базы данных ДО"
+
+#: rvg-optimize-db.php:2021
+msgid "database size AFTER"
+msgstr "размер базы данных ПОСЛЕ"
+
+#: rvg-optimize-db.php:2022
+msgid "SAVINGS"
+msgstr "СБЕРЕЖЕНО"

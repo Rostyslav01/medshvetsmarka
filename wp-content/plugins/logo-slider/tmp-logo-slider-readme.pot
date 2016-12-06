@@ -1,0 +1,246 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "Logo Slider"
+msgstr ""
+
+#. Short description.
+msgid "Showcase logos in stylish slideshow carousel."
+msgstr ""
+
+#. Screenshot description.
+msgid "An example of Logo Slider in action"
+msgstr ""
+
+#. Screenshot description.
+msgid "The settings screen in WP-Admin"
+msgstr ""
+
+#. Found in description header.
+msgid "Features"
+msgstr ""
+
+#. Found in description header.
+msgid "Demo"
+msgstr ""
+
+#. Found in description header.
+msgid "Pro vs Free Version"
+msgstr ""
+
+#. Found in description list item.
+msgid "Simple and light weight"
+msgstr ""
+
+#. Found in description list item.
+msgid "Fully responsive"
+msgstr ""
+
+#. Found in description list item, changelog list item.
+msgid "Drag &amp; Drop to reorder slider"
+msgstr ""
+
+#. Found in description list item.
+msgid "Nice selection of arrow icons"
+msgstr ""
+
+#. Found in description list item.
+msgid "Easy to customise (height, width, transition type etc)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Easy image uploader"
+msgstr ""
+
+#. Found in description list item.
+msgid "Ability to add links to each logo if you want"
+msgstr ""
+
+#. Found in description list item.
+msgid "Auto-slide option"
+msgstr ""
+
+#. Found in description list item.
+msgid "Mulitple Slideshows - create as many sliders as you like across your site"
+msgstr ""
+
+#. Found in description list item.
+msgid "Drag n Drop logo manager so you can easily re-order logos"
+msgstr ""
+
+#. Found in description list item.
+msgid "Fully Responsive Design"
+msgstr ""
+
+#. Found in description list item.
+msgid "Use WordPress Media Library for logo images"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Add a reponsive logo slideshow carousel to your site quickly and easily. Embed in any post/page using shortcode <code>[logo-slider]</code> or in your theme <code>&lt;?php logo_slider(); ?&gt;</code>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Perfect for displaying a list of sponsor or client logos."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<a href=\"http://demo.enigmaweb.com.au/logo-slider/\">Click here</a> to see Logo Slider in action."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This is the Free version of the plugin. <a href=\"http://enigmaplugins.com/plugins/logo-slider-pro/\">Get Pro Version</a> if you need the following advanced features:"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload the <code>logo-slider</code> folder to the <code>/wp-content/plugins/</code> directory"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate Logo Slider plugin through the 'Plugins' menu in WordPress"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Configure the plugin by going to the <code>Logo Slider</code> tab that appears in your admin menu."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Add to any page using shortcode <code>[logo-slider]</code> or to your theme using <code>&lt;?php logo_slider(); ?&gt;</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Animation issue fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated text domain for the plugin repository's new translations"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Off Buttons issue - Fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Function renamed for admin styles."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Function for loading plugin text domain fixed."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Some code indentation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Number of logos to be displayed in iPad - Fixed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Conflict with other slider plugins - Fixed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Upgrade jQuery.cycle To jQuery.cycle2 - New"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "conflict with wpc pro - Fixed"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated 'Size' text and added explanatory note so it is clear it applies to whole slider, not just a single slide"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fix for IE 11"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option for 1 or 2 images per slide (so 3 is no longer lowest option)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed number of slides bug (was stuck on 4). Field is now re-implemented so you can set number of logos per slide on desktop layout."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Now fully responsive"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Open slide link in new window"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Turn arrows On/Off"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fade transition as an option"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Internationalization"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed background colour setting"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Bug fix for configuration menu display and image resize function. Thanks to Grant Kimball for this fix."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added auto-slide options"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Initial release"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I use this in a widget?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I do multiple slideshows?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I customise the design?"
+msgstr ""
+
+#. Found in faq header.
+msgid "The layout is broken"
+msgstr ""
+
+#. Found in faq header.
+msgid "Where can I get support for this plugin?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Just place the shortcode into a text widget. If that doesn't work (it just renders [logo-slider] in text) then that means your theme isn't 'widgetized' which you can fix easily by adding 1 tiny piece of code to your theme functions.php:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Add this code above to fuctions.php between the <code>&lt;?php</code> and <code>?&gt;</code> tags. A good place would be either at the very top or the very bottom of the file. Once you've done this you should be able to use shortcode in widgets now."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "This Free version just does 1 slider. If you want multiple sliders <a href=\"http://enigmaplugins.com/plugins/logo-slider-pro/\">get Pro version here</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can do some basic presentation adjustments via Logo Slider tab on the admin menu. Beyond this, you can completely customise the design using CSS in the Custom CSS field on settings screen."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "It's most likely just a matter of tweaking the css."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If you've tried all the obvious stuff and it's still not working please request support via the forum."
+msgstr ""

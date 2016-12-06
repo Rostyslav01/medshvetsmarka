@@ -1,0 +1,268 @@
+
+/* EVC STYLES */
+
+@import url("bootstrap-wpadmin-fixes.css");
+@import url("bootstrap-wpadmin.css");
+
+.bootstrap-wpadmin {
+    color: #333333;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 20px;   
+}
+.bootstrap-wpadmin li,
+.bootstrap-wpadmin dt {
+  margin-bottom:0;
+}
+
+.bootstrap-wpadmin .tooltip-inner {
+  white-space: nowrap;
+}
+
+.clear {
+  *zoom: 1;
+}
+
+.clear:before,
+.clear:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clear:after {
+  clear: both;
+}
+
+#evc .a01 { 
+  width:256px;
+}
+
+#evc .a01_wrap { 
+  margin: 8px;
+}
+
+#evc img {
+  border: 0 none;
+  width: 100%;
+  vertical-align: middle;
+  
+  display: inline-block;
+}
+
+#evc .a01_img { 
+  width:240px;
+  position:relative;
+}
+
+
+
+#evc .a01_info {
+  padding:8px 0 16px;
+  font: 13px/16px Arial;  
+}
+
+#evc .a01_summary {
+  padding:0 8px;
+  max-height:160px;
+  overflow: hidden;
+  margin-bottom:16px;
+}
+
+#evc .a01_meta { 
+  font: bold 12px/16px Arial; 
+  float:left;
+  padding-left:8px;
+}
+
+#evc .a01_date { 
+  font: bold 12px/16px Arial; 
+  float:left;
+}
+#evc .a01_date a { 
+  text-decoration:none;
+}
+#evc .a01_date a:hover { 
+  text-decoration:none;
+}
+
+#evc .a01_stats { 
+  font: bold 13px/32px Arial; 
+  float:left;
+  padding:0 8px 0 16px;
+}
+
+
+/* WP BLUE */
+.a01_wpcolor .a01_wrap { 
+ background-color: #FFFFFF;
+ border-color: #DFDFDF;
+ box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.4);  
+ 
+ border-radius: 3px;
+ border-width: 1px; 
+ border-color: #DFDFDF;
+ overflow: hidden;
+}
+.a01_wpcolor .a01_info { 
+  /* background-color: #E5ECF2 ; */
+
+}
+.a01_wpcolor .a01_summary {
+  color:#333333;
+}
+.a01_wpcolor .a01_meta { 
+  color: #333333;
+}
+.a01_wpcolor .a01_meta a { 
+  color: #333333;
+}
+.a01_wpcolor .a01_date a { 
+  color: #333333;
+}
+.a01_wpcolor .a01_meta a:hover { 
+  color: #21759B;
+  text-decoration:none;
+}
+.a01_wpcolor .a01_stats { 
+  background: #808080;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#6d6d6d), to(#808080));
+  background-image: -webkit-linear-gradient(bottom, #6d6d6d, #808080);
+  background-image:    -moz-linear-gradient(bottom, #6d6d6d, #808080);
+  background-image:      -o-linear-gradient(bottom, #6d6d6d, #808080);
+  background-image: linear-gradient(to top, #6d6d6d, #808080);
+  color: #FFFFFF;
+  text-shadow: 0 -1px 0 #333333;
+  
+}
+.a01.active .a01_meta a { 
+  color: #21759B;
+}
+.a01.active .a01_date a { 
+  color: #21759B;
+}
+.a01.active .a01_meta { 
+  color: #21759B;
+}
+
+
+#evc .a01 p { 
+  margin:0 0 16px;
+}
+#evc .a01 p:last-child { 
+  margin-bottom:0px;
+}
+
+
+#evc .a02 {
+  margin-bottom:10px;
+}
+#evc .a02_summary {
+  max-height:40px;
+  overflow:hidden;
+}
+
+
+
+.bootstrap-wpadmin .navbar_wrapper {
+  min-height:42px;
+  margin-bottom:10px;
+
+}
+
+.bootstrap-wpadmin .navbar {
+  z-index:10; 
+  margin-bottom:0;
+  
+}
+.bootstrap-wpadmin .navbar.affix {
+  top:28px; 
+  left:165px;
+  right:15px;  
+}
+
+.bootstrap-wpadmin .show-grid {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+/**** Isotope Filtering ****/
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+
+/**** Isotope CSS3 transitions ****/
+
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+}
+
+.masonry,
+.masonry .masonry-brick {
+  -webkit-transition-duration: 0.7s;
+     -moz-transition-duration: 0.7s;
+      -ms-transition-duration: 0.7s;
+       -o-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+}
+
+.masonry {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.masonry .masonry-brick {
+  -webkit-transition-property: left, right, top;
+     -moz-transition-property: left, right, top;
+      -ms-transition-property: left, right, top;
+       -o-transition-property: left, right, top;
+          transition-property: left, right, top;
+}
+
+
+.evc-poll-code { margin-top:10px; }
+

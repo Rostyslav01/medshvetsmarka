@@ -1,0 +1,290 @@
+<?php if ( ! isset( $_SESSION ) ) session_start(); ?>
+<?php
+require_once './wp-content/plugins/qtranslate-x/qtranslate_compatibility.php'; 
+ini_set('zlib.output_compression', 'On');
+ini_set('zlib.output_compression_level', '1');
+?>
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" <?php language_attributes(); ?>>
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" <?php language_attributes(); ?>>
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" <?php language_attributes(); ?>>
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html <?php language_attributes(); ?>>
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8" />
+	<title><?php wp_title(); ?></title>
+
+	<?php do_action('et_head_meta'); ?>
+
+	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+    <?php $currentLang = qtrans_getLanguage();?> 
+	<?php $template_directory_uri = get_template_directory_uri(); ?>
+	<!--[if lt IE 9]>
+	<script src="<?php echo esc_url( $template_directory_uri . '/js/html5.js"' ); ?>" type="text/javascript"></script>
+	<![endif]-->
+
+	<script type="text/javascript">
+		document.documentElement.className = 'js';
+	</script>
+
+	<?php wp_head();?>
+
+</head>
+<body <?php body_class(); ?>>
+
+
+ <?php if ($currentLang == 'ru'):?>
+		
+		          
+
+
+<?php endif; ?>
+
+	<div id="page-container">
+<?php
+	if ( is_page_template( 'page-template-blank.php' ) ) {
+		return;
+	}
+
+	$et_secondary_nav_items = et_divi_get_top_nav_items();
+
+	$et_phone_number = $et_secondary_nav_items->phone_number;
+
+	$et_email = $et_secondary_nav_items->email;
+
+	$et_contact_info_defined = $et_secondary_nav_items->contact_info_defined;
+
+	$show_header_social_icons = $et_secondary_nav_items->show_header_social_icons;
+
+	$et_secondary_nav = $et_secondary_nav_items->secondary_nav;
+
+	$et_top_info_defined = $et_secondary_nav_items->top_info_defined;
+?>
+
+	<?php if ( $et_top_info_defined ) : ?>
+		<div id="top-header">
+			<div class="container clearfix">
+
+			<?php if ( $et_contact_info_defined ) : ?>
+
+				<div id="et-info">
+				<?php if ( '' !== ( $et_phone_number = et_get_option( 'phone_number' ) ) ) : ?>
+					<span id="et-info-phone"><?php echo esc_html( $et_phone_number ); ?></span>
+				<?php endif; ?>
+
+				<?php if ( '' !== ( $et_email = et_get_option( 'header_email' ) ) ) : ?>
+					<a href="<?php echo esc_attr( 'mailto:' . $et_email ); ?>"><span id="et-info-email"><?php echo esc_html( $et_email ); ?></span></a>
+				<?php endif; ?>
+
+				<?php
+				if ( true === $show_header_social_icons ) {
+					get_template_part( 'includes/social_icons', 'header' );
+				} ?>
+				</div> <!-- #et-info -->
+
+			<?php endif; // true === $et_contact_info_defined ?>
+
+				<div id="et-secondary-menu">
+				<?php
+					if ( ! $et_contact_info_defined && true === $show_header_social_icons ) {
+						get_template_part( 'includes/social_icons', 'header' );
+					} else if ( $et_contact_info_defined && true === $show_header_social_icons ) {
+						ob_start();
+
+						get_template_part( 'includes/social_icons', 'header' );
+
+						$duplicate_social_icons = ob_get_contents();
+
+						ob_end_clean();
+
+						printf(
+							'<div class="et_duplicate_social_icons">
+								%1$s
+							</div>',
+							$duplicate_social_icons
+						);
+					}
+
+					if ( '' !== $et_secondary_nav ) {
+						echo $et_secondary_nav;
+					}
+
+					et_show_cart_total();
+				?>
+				</div> <!-- #et-secondary-menu -->
+
+			</div> <!-- .container -->
+		</div> <!-- #top-header -->
+	<?php endif; // true ==== $et_top_info_defined ?>
+
+		<header id="main-header" data-height-onload="<?php echo esc_attr( et_get_option( 'menu_height', '66' ) ); ?>">
+			<div class="container clearfix et_menu_container">
+			<?php
+				$logo = ( $user_logo = et_get_option( 'divi_logo' ) ) && '' != $user_logo
+					? $user_logo
+					: $template_directory_uri . '/images/logo.png';
+			?>
+            
+                    
+
+
+				<div class="logo_container">
+                 
+					<span class="logo_helper"></span>
+                            
+					
+                   	                        
+                         <?php if ($currentLang == 'ru'):?>
+                             <div class="logo_1">
+                            <div id="left-content">
+                            
+                                   
+                                <div class="address-l">
+                                    <h5>Левый берег:</h5>
+                                    <p>Позняки, ул. Урловская 34а, оф 3</p>                          
+                                    <a href="tel:+380963983474"><span class="dashicons dashicons-smartphone"></span> +38(096)398-34-74</a>
+                                    <a href="tel:+380443831012"><span class="dashicons dashicons-phone"></span> +38(044)383-10-12</a> 
+                                    <div class="graff"> График работы офиса <span class="dashicons dashicons-calendar-alt"></span>:
+                                        <div class="graf-hl">Пн-Пт: 11-19<br>СБ: 11-16<br>ВС: Выходной</div>
+                                    </div>                   
+                                </div>
+                                
+                            </div>                             
+                     <div id="logo-c"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img width="150px" height="150px !important" src="http://medshvetsmarka.com.ua/wp-content/uploads/logo23.jpg"></img></a></div>
+                            <div id="right-content"> 
+                            
+                                                      
+                                <div class="address-r">
+                                    <h5>Правый берег:</h5>
+                                    <p>  м. Лукьяновская, ул. Зоологическую 4, оф.31</p>                   
+                                    <a href="tel:+380973981310"><span class="dashicons dashicons-smartphone"></span> +38(097)398-13-10</a>
+                                    <a href="tel:+380443383093"><span class="dashicons dashicons-phone"></span> +38(044)338-30-93</a>
+                                    <div class="graff"> График работы офиса <span class="dashicons dashicons-calendar-alt"></span>:
+                                        <div class="graf-hr">Пн-Пт: 10-19<br>Сб-ВС: 11-18</div>
+                                    </div>
+                                    
+                                </div>                          
+                                
+                                
+                             </div>
+                          </div>  
+                         <?php endif; ?>                         
+                         <?php if ($currentLang == 'ua'):?>
+                         <div class="logo_1">
+                            <div id="left-content">
+                            
+                                   
+                                <div class="address-l">
+                                    <h5>Лівий берег:</h5>
+                                    <p>Позняки, вул. Урлівська 34а, оф 3</p>                          
+                                    <a href="tel:+380963983474"><span class="dashicons dashicons-smartphone"></span> +38(096)398-34-74</a>
+                                    <a href="tel:+380443831012"><span class="dashicons dashicons-phone"></span> +38(044)383-10-12</a> 
+                                    <div class="graff"> Графік роботи офісу <span class="dashicons dashicons-calendar-alt"></span>:
+                                        <div class="graf-hl">Пн-Пт: 11-19<br>СБ: 11-16<br>НД: Вихідний</div>
+                                    </div>                   
+                                </div>
+                                
+                            </div>                             
+                     <div id="logo-c"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img width="150" src="http://medshvetsmarka.com.ua/wp-content/uploads/logo23.jpg"></img></a></div>
+                            <div id="right-content"> 
+                            
+                                                      
+                                <div class="address-r">
+                                    <h5>Правий берег:</h5>  
+                                    <p> Лукьянівська, вул. Зоологічна 4, оф 31</p>                   
+                                    <a href="tel:+380973981310"><span class="dashicons dashicons-smartphone"></span> +38(097)398-13-10</a>
+                                    <a href="tel:+380443383093"><span class="dashicons dashicons-phone"></span> +38(044)338-30-93</a>
+                                    <div class="graff"> Графік роботи офісу <span class="dashicons dashicons-calendar-alt"></span>:
+                                        <div class="graf-hr">Пн-Пт: 10-19<br>СБ-НД: 11-18</div>
+                                    </div>
+                                    
+                                </div>                          
+                                
+                                
+                             </div>
+                          </div> 
+                          <?php endif;?>
+                          
+                          
+					
+                        
+                </div>  
+                
+				<div id="et-top-navigation">
+                
+					<nav id="top-menu-nav">
+					<?php
+						$menuClass = 'nav';
+						if ( 'on' == et_get_option( 'divi_disable_toptier' ) ) $menuClass .= ' et_disable_top_tier';
+						$primaryNav = '';
+
+						$primaryNav = wp_nav_menu( array( 'theme_location' => 'primary-menu', 'container' => '', 'fallback_cb' => '', 'menu_class' => $menuClass, 'menu_id' => 'top-menu', 'echo' => false ) );
+
+						if ( '' == $primaryNav ) :
+					?>
+						<ul id="top-menu" class="<?php echo esc_attr( $menuClass ); ?>">
+							<?php if ( 'on' == et_get_option( 'divi_home_link' ) ) { ?>
+								<li <?php if ( is_home() ) echo( 'class="current_page_item"' ); ?>><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'Home', 'Divi' ); ?></a></li>
+							<?php }; ?>
+
+							<?php show_page_menu( $menuClass, false, false ); ?>
+							<?php show_categories_menu( $menuClass, false ); ?>
+                            
+						</ul>
+                        
+					<?php
+						else :
+							echo( $primaryNav );
+						endif;
+					?>
+                    
+					</nav>
+                     <div id="lang"><?php qtrans_generateLanguageSelectCode('image');?></div>                 
+                    
+
+					<?php
+					if ( ! $et_top_info_defined ) {
+						et_show_cart_total( array(
+							'no_text' => true,
+						) );
+					}
+					?>
+
+					<?php if ( false !== et_get_option( 'show_search_icon', true ) ) : ?>
+					<div id="et_top_search">
+						<span id="et_search_icon"></span>
+					</div>
+					<?php endif; // true === et_get_option( 'show_search_icon', false ) ?>
+
+					<?php do_action( 'et_header_top' ); ?>
+                     
+				</div> <!-- #et-top-navigation -->
+			</div> <!-- .container -->
+			<div class="et_search_outer">
+				<div class="container et_search_form_container">
+					<form role="search" method="get" class="et-search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+					<?php
+						printf( '<input type="search" class="et-search-field" placeholder="%1$s" value="%2$s" name="s" title="%3$s" />',
+							esc_attr__( 'Search &hellip;', 'Divi' ),
+							get_search_query(),
+							esc_attr__( 'Search for:', 'Divi' )
+						)
+					?>
+					</form>
+					<span class="et_close_search_field"></span>
+				</div>
+			</div>
+            <!-- Плавающий график работы -->
+   
+		</header> <!-- #main-header -->
+<div id="kontakt_link">
+	<a href="http://medshvetsmarka.com.ua/kontakty/"><img src="http://medshvetsmarka.com.ua/wp-content/uploads/phone.png"></img></a>
+</div>
+		<div id="et-main-area">

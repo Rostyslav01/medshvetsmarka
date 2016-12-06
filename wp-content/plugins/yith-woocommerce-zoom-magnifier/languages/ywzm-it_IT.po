@@ -1,0 +1,443 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Zoom Magnifier\n"
+"POT-Creation-Date: 2015-07-23 15:49+0200\n"
+"PO-Revision-Date: 2015-07-23 15:49+0200\n"
+"Last-Translator: \n"
+"Language-Team: Your Inspiration Themes <plugins@yithemes.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"X-Poedit-KeywordsList: __ ;_e;_n:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: plugin-fw\n"
+
+#: class.yith-wcmg-admin.php:91
+msgid "Image Size"
+msgstr "Dimensioni Immagine"
+
+#: class.yith-wcmg-admin.php:92 plugin-options/general-options.php:17
+msgid "The size of the images used within the magnifier box"
+msgstr "La dimensione delle immagini utilizzata nel riquadro di zoom"
+
+#: init.php:43
+msgid ""
+"YITH WooCommerce Zoom Magnifier is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Zoom Magnifier è attivo ma non funzionante. Il plugin "
+"richiede WooCommerce per funzionare correttamente."
+
+#: init.php:52
+msgid ""
+"You can't activate the free version of YITH WooCommerce Zoom Magnifier while "
+"you are using the premium one."
+msgstr ""
+"Non è possibile attivare la versione gratuita di YITH WooCommerce Zoom "
+"Magnifier mentre si utilizza quella premium."
+
+#: lib/class.yith-ywzm-custom-types.php:179
+msgid "Do you want to hard crop the image?"
+msgstr "Vuoi ritagliare l'immagine?"
+
+#: lib/class.yith-ywzm-plugin-fw-loader.php:124
+msgid "General"
+msgstr "Generale"
+
+#: lib/class.yith-ywzm-plugin-fw-loader.php:127
+#: lib/class.yith-ywzm-plugin-fw-loader.php:191
+msgid "Premium Version"
+msgstr "Versione Premium"
+
+#: lib/class.yith-ywzm-plugin-fw-loader.php:129
+msgid "Product exclusion list"
+msgstr "Elenco esclusioni prodotti"
+
+#: lib/class.yith-ywzm-plugin-fw-loader.php:188
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: lib/class.yith-ywzm-plugin-fw-loader.php:216
+msgid "Plugin Documentation"
+msgstr "Documentazione Plugin"
+
+#: lib/class.yith-ywzm-plugin-fw-loader.php:229
+msgid ""
+"YITH WooCommerce Zoom Magnifier is available in an outstanding PREMIUM "
+"version with many new options, discover it now."
+msgstr ""
+"YITH WooCommerce Zoom Magnifier è disponibile in una straordinaria versione "
+"PREMIUM con molte nuove opzioni, scoprila subito."
+
+#: lib/class.yith-ywzm-plugin-fw-loader.php:230
+msgid "Premium version"
+msgstr "Versione premium"
+
+#: lib/class.yith-ywzm-plugin-fw-loader.php:237
+#: plugin-options/general-options.php:214
+msgid "YITH WooCommerce Zoom Magnifier"
+msgstr "YITH WooCommerce Zoom Magnifier"
+
+#: lib/class.yith-ywzm-plugin-fw-loader.php:238
+msgid ""
+"In YIT Plugins tab you can find  YITH WooCommerce Zoom Magnifier options."
+"<br> From this menu you can access all settings of the YITH plugins "
+"activated."
+msgstr ""
+"Nella tab YIT Plugins puoi trovare le optioni di YITH WooCommerce Zoom "
+"Magnifier.<br> Da questo menu puoi accedere a tutte le impostazioni dei "
+"plugin YITH attivati."
+
+#: plugin-options/general-options.php:16
+msgid "Image size"
+msgstr "Dimensione immagine"
+
+#: plugin-options/general-options.php:36
+msgid "General Settings"
+msgstr "Impostazioni generali"
+
+#: plugin-options/general-options.php:42
+msgid "Activate YITH Magnifier"
+msgstr "Attiva YITH Magnifier"
+
+#: plugin-options/general-options.php:43
+msgid "Activate the plugin or use the WooCommerce default product image."
+msgstr "Attiva il plugin o usa le immagini prodotto di default di WooCommerce."
+
+#: plugin-options/general-options.php:50
+msgid "Activate the plugin on mobile device"
+msgstr "Attiva il plugin su dispositivi mobili"
+
+#: plugin-options/general-options.php:57
+msgid "Forced Image Size"
+msgstr "Dimensioni Immagini Forzate"
+
+#: plugin-options/general-options.php:58
+msgid ""
+"If disabled, you will able to customize the sizes of the zoomed images. "
+"Disable it at your own risk; the magnifier could not properly work with "
+"images out of proportion."
+msgstr ""
+"Se disabilitata, questa opzione permette di personalizzare la dimensione "
+"delle immagini zoomate. Disabilitare a proprio rischio: lo zoom potrebbe non "
+"funzionare correttamente con immagini sproporzionate."
+
+#: plugin-options/general-options.php:72
+msgid "Magnifier Settings"
+msgstr "Impostazioni Zoom"
+
+#: plugin-options/general-options.php:78
+msgid "Zoom Box Width"
+msgstr "Larghezza Riquadro Zoom"
+
+#: plugin-options/general-options.php:79
+msgid "The width of the magnifier box (default: auto)"
+msgstr "La larghezza del riquadro di zoom (default: auto)"
+
+#: plugin-options/general-options.php:86
+msgid "Zoom Box Height"
+msgstr "Altezza Riquadro Zoom"
+
+#: plugin-options/general-options.php:87
+msgid "The height of the magnifier box (default: auto)"
+msgstr "L'altezza del riquadro di zoom (default: auto)"
+
+#: plugin-options/general-options.php:95
+msgid "Zoom Box Position"
+msgstr "Posizione Riquadro Zoom"
+
+#: plugin-options/general-options.php:96
+msgid "The magnifier position"
+msgstr "Dove apparirà la finestra di zoom"
+
+#: plugin-options/general-options.php:102
+msgid "Right"
+msgstr "Destra"
+
+#: plugin-options/general-options.php:103
+#: plugin-options/general-options.php:115
+msgid "Inside"
+msgstr "Interno"
+
+#: plugin-options/general-options.php:107
+msgid "Zoom Box Position for mobile devices"
+msgstr "Posizione Riquadro Zoom su dispositivi mobili"
+
+#: plugin-options/general-options.php:108
+msgid "The magnifier position for the mobile devices (iPhone, Android, etc.)"
+msgstr ""
+"Dove apparirà la finestra di zoom sui dispositivi mobili (iPhone, Android, "
+"etc.)"
+
+#: plugin-options/general-options.php:114
+msgid "Default"
+msgstr "Default"
+
+#: plugin-options/general-options.php:116
+msgid "Disable"
+msgstr "Disattiva"
+
+#: plugin-options/general-options.php:120
+msgid "Loading label"
+msgstr "Etichetta di caricamento"
+
+#: plugin-options/general-options.php:123
+#: plugin-options/general-options.php:124
+msgid "Loading..."
+msgstr "Caricamento..."
+
+#: plugin-options/general-options.php:128
+msgid "Lens Opacity"
+msgstr "Opacità Lenti"
+
+#: plugin-options/general-options.php:139
+msgid "Blur"
+msgstr "Sfocatura"
+
+#: plugin-options/general-options.php:140
+msgid "Add a blur effect to the small image on mouse hover."
+msgstr ""
+"Aggiungi un effetto di sfocatura all'immagine piccola al passaggio del mouse."
+
+#: plugin-options/general-options.php:151
+msgid "Slider Settings"
+msgstr "Impostazioni Slider"
+
+#: plugin-options/general-options.php:157
+msgid "Activate Slider"
+msgstr "Attiva Slider"
+
+#: plugin-options/general-options.php:158
+msgid "Activate Thumbnail Slider."
+msgstr "Attiva lo slider con anteprime."
+
+#: plugin-options/general-options.php:165
+msgid "Activate Responsive Slider"
+msgstr "Attiva Slider Responsive"
+
+#: plugin-options/general-options.php:166
+msgid ""
+"This option fits the thumbnails within the available space. Disable it if "
+"you want to manage freely the thumbnails (eg. add margins, paddings, etc.)"
+msgstr ""
+"Questa opzione adatta le anteprime allo spazio disponibile. Disabilitala se "
+"vuoi gestire liberamente le anteprime (per esempio aggiungere margini, "
+"padding, ecc.)"
+
+#: plugin-options/general-options.php:173
+msgid "Items"
+msgstr "Elementi"
+
+#: plugin-options/general-options.php:174
+msgid "Number of items to show"
+msgstr "Numero di elementi da mostrare"
+
+#: plugin-options/general-options.php:184
+msgid "Circular carousel"
+msgstr "Carosello circolare"
+
+#: plugin-options/general-options.php:185
+msgid "It defines whether the carousel should be circular."
+msgstr "Imposta se il carosello deve essere circolare."
+
+#: plugin-options/general-options.php:192
+msgid "Infinite carousel"
+msgstr "Carosello infinito"
+
+#: plugin-options/general-options.php:193
+msgid ""
+"It defines whether the carousel should be infinite. Note: It is possible to "
+"create a non-circular, infinite carousel, but it is not possible to create a "
+"circular, non-infinite carousel."
+msgstr ""
+"Imposta se il carosello deve essere infinito. Attenzione: è possibile creare "
+"un carosello infinito non circolare, ma non puoi creare un carosello "
+"circolare non infinito."
+
+#: plugin-options/general-options.php:211
+msgid "Upgrade to the PREMIUM VERSION"
+msgstr "Aggiorna alla VERSIONE PREMIUM"
+
+#: plugin-options/general-options.php:215
+msgid "Discover The Advanced Features"
+msgstr "Scopri le caratteristiche avanzate"
+
+#: plugin-options/general-options.php:216
+msgid ""
+"Upgrade to the PREMIUM VERSION of YITH WOOCOMMERCE ZOOM MAGNIFIER to benefit "
+"from all features!"
+msgstr ""
+"Aggiorna alla VERSIONE PREMIUM di YITH WOOCOMMERCE ZOOM MAGNIFIER per "
+"usufruire di tutte le caratteristiche!"
+
+#: plugin-options/general-options.php:220
+msgid ""
+"See YITH WooCommerce Zoom Magnifier plugin with full premium features in "
+"action"
+msgstr ""
+"Guarda il plugin YITH WooCommerce Zoom Magnifier con tutte le "
+"caratteristiche premium in azione"
+
+#: plugin-options/general-options.php:222
+msgid "Get Support and Pro Features"
+msgstr "Ottieni il supporto e le caratteristiche premium"
+
+#: plugin-options/general-options.php:223
+msgid ""
+"Purchasing the premium version of the plugin, you will take advantage of the "
+"advanced features of the product and you will get one year of free updates "
+"and support through our platform available 24h/24."
+msgstr ""
+"Acquistando la versione premium del plugin potrai usufruire delle "
+"caratteristiche avanzate del prodotto, oltre a ottenere un anno di "
+"aggiornamenti gratuiti e di supporto attraverso la nostra piattaforma "
+"disponibile 24h/24."
+
+#: yit-common/yith-panel.php:424
+msgid "Select a date"
+msgstr "Scegli una data"
+
+#: yit-common/yith-panel.php:425
+msgid "Hours"
+msgstr "Ore"
+
+#: yit-common/yith-panel.php:426 yit-common/yith-panel.php:427
+msgid "Minutes"
+msgstr "Minuti"
+
+#: yit-common/yith-panel.php:435
+msgid "Upload"
+msgstr "Carica"
+
+#: yit-common/yith-panel.php:472
+msgid "px"
+msgstr "px"
+
+#: yit-common/yith-panel.php:474
+msgid "em"
+msgstr "em"
+
+#: yit-common/yith-panel.php:476
+msgid "pt"
+msgstr "pt"
+
+#: yit-common/yith-panel.php:478
+msgid "rem"
+msgstr "rem"
+
+#: yit-common/yith-panel.php:490
+msgid "Select a font family"
+msgstr "Scegli una famiglia di caratteri"
+
+#: yit-common/yith-panel.php:500
+msgid "Regular"
+msgstr "Normale"
+
+#: yit-common/yith-panel.php:502
+msgid "Bold"
+msgstr "Grassetto"
+
+#: yit-common/yith-panel.php:504
+msgid "Extra bold"
+msgstr "Grassetto extra"
+
+#: yit-common/yith-panel.php:506
+msgid "Italic"
+msgstr "Corsivo"
+
+#: yit-common/yith-panel.php:508
+msgid "Italic bold"
+msgstr "Corsivo E Grassetto"
+
+#: yit-common/yith-panel.php:524
+msgid "Click to preview"
+msgstr "Premi per visualizzare l'anteprima"
+
+#~ msgid "product"
+#~ msgstr "prodotto"
+
+#~ msgid "products"
+#~ msgstr "prodotti"
+
+#~ msgid "Product"
+#~ msgstr "Prodotto"
+
+#~ msgid "Remove from exclusions"
+#~ msgstr "Rimuovi dalle esclusioni"
+
+#~ msgid "Edit product"
+#~ msgstr "Modifica prodotto"
+
+#~ msgid "Remove from list"
+#~ msgstr "Elimina dalla lista"
+
+#~ msgid "%s product removed successfully"
+#~ msgid_plural "%s products removed successfully"
+#~ msgstr[0] "%s prodotto rimosso correttamente"
+#~ msgstr[1] "%s prodotti rimossi correttamente"
+
+#~ msgid "%s product added successfully"
+#~ msgid_plural "%s products added successfully"
+#~ msgstr[0] "%s prodotto aggiunto correttamente"
+#~ msgstr[1] "%s prodotti aggiunti correttamente"
+
+#~ msgid "Product updated successfully"
+#~ msgstr "Prodotto aggiornato correttamente"
+
+#~ msgid "Single Product Exclusion List"
+#~ msgstr "Elenco Esclusioni Prodotti"
+
+#~ msgid "Add Products"
+#~ msgstr "Aggiungi Prodotto"
+
+#~ msgid "Products to exclude"
+#~ msgstr "Prodotti da escludere"
+
+#~ msgid "Add product exclusion"
+#~ msgstr "Aggiungi esclusione prodotto"
+
+#~ msgid "Return to exclusion list"
+#~ msgstr "Torno all'elenco esclusioni"
+
+#~ msgid "Select at least one product"
+#~ msgstr "Seleziona almeno un prodotto"
+
+#~ msgid "Exclude product categories"
+#~ msgstr "Escludi categorie di prodotti"
+
+#~ msgid "Top"
+#~ msgstr "Sopra"
+
+#~ msgid "Bottom"
+#~ msgstr "Sotto"
+
+#~ msgid "Left"
+#~ msgstr "Sinistra"
+
+#~ msgid "Activate YITH WooCommerce Zoom Magnifier"
+#~ msgstr "Attiva YITH WooCommerce Zoom Magnifier"
+
+#~ msgid "Activate on mobile device"
+#~ msgstr "Attiva su dispositivi mobili"
+
+#~ msgid ""
+#~ "Set if zoom and slider functionalities should be shown also on mobile "
+#~ "devices."
+#~ msgstr ""
+#~ "Decidi se mostrare lo zoom e lo slider anche sui dispositivi mobili."
+
+#~ msgid ""
+#~ "Purchasing the premium version of the plugin, you will take advantage of "
+#~ "the advanced features of the product, and you will get one year of free "
+#~ "updates and support through our platform available 24h/24."
+#~ msgstr ""
+#~ "Acquistando la versione premium del plugin potrai usufruire delle "
+#~ "caratteristiche avanzate del prodotto, oltre a ottenere un anno di "
+#~ "aggiornamenti gratuiti e di supporto attraverso la nostra piattaforma "
+#~ "disponibile 24h/24."
